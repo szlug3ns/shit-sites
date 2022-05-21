@@ -1,0 +1,100 @@
+body {
+  background: #b93131;
+  background: -webkit-linear-gradient(
+    -90deg,
+    #b93131,
+    black
+  );
+  background: -o-linear-gradient(
+    -90deg,
+    #b93131,
+    black
+  );
+  background: -moz-linear-gradient(
+    -90deg,
+    #b93131,
+    black
+  );
+  background: linear-gradient(-90deg, #b93131, black);
+}
+
+
+#rcorners1 {
+  border-radius: 25px;
+  padding: 20px; 
+}
+
+
+p.thick {
+  font-weight: bold;
+  color: white;
+  font-size: 20px;
+}
+
+p.thick1 {
+  font-weight: bold;
+  color: white;
+  font-size: 40px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.header {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav b {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+img {
+  width: 50%;
+  height: auto;
+}
+
+.main {
+  margin: 0;
+  text-align: center;
+}
+
+button {
+  padding: 20px;
+  background: transparent;
+  text-shadow: 1px 1px 1px #202020;
+  font-family: "Lato", sans-serif;
+  font-size: 18pt;
+  border: 1px solid white;
+  color: white;
+}
